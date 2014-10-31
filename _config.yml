@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Enymuss
+tagline:          'Some experiences written.'
+description:      'Made by <a href="https://twitter.com/enymuss1" target="_blank">@enymuss1</a>.'
+url:              http://enymuss.github.io
+
+author:
+  name:           'Enymuss'
+  url:            https://twitter.com/enymuss1
+
+paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/poole/lanyon
