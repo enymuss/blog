@@ -4,6 +4,7 @@ title:  "Google Code-in 2014 - Summary"
 date:   2015-01-17 16:00
 categories: gci
 ---
+
 As Google Code-In comes to an end, it's a good time to reflect on my experience participating for the first time in the competition and also what I've learnt over the past 7 weeks.
 
 As of writing I've completed 6 tasks. This may not sound like a lot but everywhere you go you'll hear "Quality over Quantity." Let's look at those tasks:
