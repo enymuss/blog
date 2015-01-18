@@ -26,6 +26,9 @@ This was a Level 5 task. Around this time a lot of the tasks were gaining tracti
 The write-up of all improvements has its own [wiki page][Modulus Algorithm Wiki]. Iw was my first experience with the grails plugin, Searchable, which is built on Lucene. I made a few improvements and submitted a pull request, which might be merged at the end if GCI. It would have been better if we worked on top of others improvements, which would make making the same changes twice impossible and our results would have been more effective.
 
 
+### Task #4: REST
+
+
 [wluyima-github]: https://github.com/wluyima
 [Modulus Website]: https://modules.openmrs.org
 [Elliot Williams Github]: https://github.com/elliottwilliams
