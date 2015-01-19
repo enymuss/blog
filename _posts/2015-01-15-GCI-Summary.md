@@ -28,6 +28,8 @@ The write-up of all improvements has its own [wiki page][Modulus Algorithm Wiki]
 
 ### Task #4: REST
 
+Non Tasks:
+
 
 [wluyima-github]: https://github.com/wluyima
 [Modulus Website]: https://modules.openmrs.org
