@@ -21,14 +21,46 @@ This was a Level 3 task (5 being the hardest). It was very simple to complete as
 ###Task #3: RESEARCH: IMPROVE THE MODULUS SEARCH ALGORITHM
 This was a Level 5 task. Around this time a lot of the tasks were gaining traction (had comments) but this task just stood in the corner and I started with it. There were other tasks in a similar position but Modulus drew me because it was better aligned with my intrest. It was more of a web application then OpenMRS Platform or the Reference Application. I would call this task my first true experience of developing in open-source, a right of passage if you will.
  
-[Modulus's][Modulus Website] was built by [Elliot Williams][Elliot Williams Github] to make modules for OpenMRS more accessible. It used MySQL, OAuth, OpenMRS ID, Grails, Groovy and Java. But that's only the backend. The frontend is [Modulus-UI][Modulus-UI Github] which used Angular, Node, Grunt and Bootstrap. To make all these technologies work together was very hard, especially for someone who never even made a website. All this was new to me so I had a lot of questions. The set-up documentation was lacking so what ensued was a 28+ mail conversations spanning 24 days and 10 errors. This taught me patience and how much time a good documentation can save.  I had errors concerning OAuth, an improper .config file for Grails and missing important parts of it, lack of git submodules. Then there was an improper clientID between the UI and backend, no MySQL database with information to be displayed and some errors that even though they were displayed worked correctly. Elliot solved all of them, every single time. This led my to create a whole new [wiki entry][Modulus Wiki] on the process which enabled further GCI participates (more on those later) to get Modulus set up and was linked to from the Github Repo's. 
+[Modulus][Modulus Website] was built by [Elliot Williams][Elliot Williams Github] to make modules for OpenMRS more accessible. It used MySQL, OAuth, OpenMRS ID, Grails, Groovy and Java. But that's only the backend. The frontend is [Modulus-UI][Modulus-UI Github] which used Angular, Node, Grunt and Bootstrap. To make all these technologies work together was very hard, especially for someone who never even made a website. All this was new to me so I had a lot of questions. The set-up documentation was lacking so what ensued was a 28+ mail conversations spanning 24 days and 10 errors. This taught me patience and how much time a good documentation can save.  I had errors concerning OAuth, an improper .config file for Grails and missing important parts of it, lack of git submodules. Then there was an improper clientID between the UI and backend, no MySQL database with information to be displayed and some errors that even though they were displayed worked correctly. Elliot solved all of them, every single time. This led my to create a whole new [wiki entry][Modulus Wiki] on the process which enabled further GCI participates (more on those later) to get Modulus set up and was linked to from the Github Repo's. 
 
 The write-up of all improvements has its own [wiki page][Modulus Algorithm Wiki]. Iw was my first experience with the grails plugin, Searchable, which is built on Lucene. I made a few improvements and submitted a pull request, which might be merged at the end if GCI. It would have been better if we worked on top of others improvements, which would make making the same changes twice impossible and our results would have been more effective.
 
 
-### Task #4: REST
+### Task #4: READ DEPENDENCIES FROM CONFIG.XML
+After scrolling through the available GCI-OpenMRS tasks and finding nothing I felt would be worthwhile both for myself and the organisation I started looking into other projects available on JIRA. I was again drawn to Modulus and reached out to Elliot asking him if it was all right for me to do two tasks as part of the competition. He agreed and added MOD-54, MOD-40 and MOD-87. This made me realize how understanding the mentors are and if you suggest an idea they'll probably agree to it.
 
-Non Tasks:
+SO the task was quite simple, just 5 lines of code. But it was useless. It read the dependencies, returned them and that's it. Nothing read it, changed, touched in any shape or form. I wanted to add a finished part not start on it and give it away for somebody else to finish what I started.
+
+After an hour long discussion on IRC (just imagine how long it'd take by email) about how I should go about fully implementing it the the whole Modulus ecosystem and Elliot giving my lines of code that were really useful, I embarked on my ever first backend job.
+
+I had opportunities before on working with a database but I shied away from them, fearing I would break them. Thankfully, git gave me courage to do it (git revert). Now my reading from the config.xml file became useful, by adding a variable and assigning the required modules during a module creation I was able to display it on screen for the user. But after saving, it disappeared and wasn't visible in the JSON file that the server returned. This was due to not adding the variable (with a hasMany status) to the MySQL database.
+
+After it was returning in JSON format properly, I added the UI components for it as well, both in the "Upload new module" section and when displaying a module. Since the dependencies where string I also linked them back to their respected pages to make the download process go as smoothly as possible.
+
+###Task #5: CREATE A VIDEO TUTORIAL SHOWING HOW TO INSTALL & RUN OPENMRS
+
+This task was completed because the last tutorial was from 3 years ago and a lot had changed. A fellow participant already completed a tutorial on how to do it on Windows, but nobody touched the Mac version.
+
+###Task #6: COMPLETE OPENMRS DEVELOPER SETUP ON MAC OS AND REPORT OUTCOME
+This task was the same as my first task but it went much more smoothly. I also had some problems so I debugged them and updated the Wiki entry on the subject for future developers.
+
+## Non Tasks
+There were a couple items I did that didn't count toward GCI.
+
+### #1: Song:
+I created a song to the beat of "Uptown Funk" by Mark Ronson. I didn't get to shot a music video for it but I completed the lyrics and recorded myself singing them.
+
+### #2: MOD-87 - Fix Scrolling Bug:
+While I was working on MOD-54 I completed this task to a working degree but since it wasn't claimed by me on Melange, Parker completed it properly.
+
+### #3: MOD-40 - Add UI Config for Google Analytics:
+This was the last task I claimed during the competition. I learnt how to use grunt, the taskrunner, to add a script containing the GA code into every page. Simple and useful. It was a already pull request before the end.
+
+### #4: MOD-66 - "Delete" link is dangerously ambiguous:
+I wanted gain a better understanding of the Modulus webpage, so I turned to the UI and completed a fairly simple task of changing the wording and position of the "Delete" button.
+
+I gained a better understanding of Bootstrap's classes and Angular.js templating and DOM. It was accepted and merged into the main repository.
+
 
 
 [wluyima-github]: https://github.com/wluyima
