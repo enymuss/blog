@@ -50,6 +50,11 @@ There were a couple items I did that didn't count toward GCI.
 ### #1: Song:
 I created a song to the beat of "Uptown Funk" by Mark Ronson. I didn't get to shot a music video for it but I completed the lyrics and recorded myself singing them.
 
+<audio controls>
+  <source src="/assets/GCISummary/OpenMRS_Song.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
 ### #2: MOD-87 - Fix Scrolling Bug:
 While I was working on MOD-54 I completed this task to a working degree but since it wasn't claimed by me on Melange, Parker completed it properly.
 
@@ -59,7 +64,7 @@ This was the last task I claimed during the competition. I learnt how to use gru
 ### #4: MOD-66 - "Delete" link is dangerously ambiguous:
 I wanted gain a better understanding of the Modulus webpage, so I turned to the UI and completed a fairly simple task of changing the wording and position of the "Delete" button.
 
-I gained a better understanding of Bootstrap's classes and Angular.js templating and DOM. It was accepted and merged into the main repository.
+I gained a better understanding of Bootstrap's classes, Angular.js templating and DOM. It was accepted and merged into the main repository.
 
 
 
