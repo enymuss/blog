@@ -55,6 +55,182 @@ I created a song to the beat of "Uptown Funk" by Mark Ronson. I didn't get to sh
 Your browser does not support the audio element.
 </audio>
 
+>This click, that upload
+
+>Burke and Paul, that white gold
+
+>This one, for them patients
+
+>each nations
+
+>Straight masterpieces
+
+>Stylin', wilin'
+
+>Livin’ it up in a city
+
+>Got forms on with Hibernate
+
+>Gotta 'like' myself I’m so pretty
+
+>[Pre-Chorus]
+
+>I’m too hot (hot damn)
+
+>Call the doc and the assistant
+
+>I’m too hot (hot damn)
+
+>Make a scribe wanna retire man
+
+>I’m too hot (hot damn)
+
+>Say my name you know who I am
+
+>I’m too hot (hot damn)
+
+>And my repo ain't 'bout that money
+
+>Break it down
+
+>[Chorus]
+
+>Nurses hit your hallelujah (Woo!)
+
+>Users hit your hallelujah (Woo!)
+
+>Devs hit your hallelujah (Woo!)
+
+>Cause OpenMRS gon’ give it to you
+
+>Cause OpenMRS gon’ give it to you
+
+>Cause OpenMRS gon’ give it to you
+
+>Saturday night and we in the ward
+
+>Don’t believe me, just watch (come on)
+
+>Don’t believe me, just watch
+
+>Don’t believe me, just watch
+
+>Don’t believe me, just watch
+
+>Don’t believe me, just watch
+
+>Don’t believe me, just watch
+
+>Hey, hey, hey, oh!
+
+
+>[Verse 2]
+
+>Stop
+
+>Wait a minute
+
+>Fill his cup put some liquid in it
+
+>Take a sip, sign the note
+
+>Julio! Get the pulse!
+
+>Work in Kandy, Libya, Kenya, Indiana
+
+>If we show up, we gon’ show out
+
+>Smoother than a fresh banana
+
+>[Pre-Chorus 2]
+
+>I’m too hot (hot damn)
+
+>Call the doc and the assistant
+
+>I’m too hot (hot damn)
+
+>Make a scribe wanna retire man
+
+>I’m too hot (hot damn)
+
+>Nurse, say my name you know who I am!
+
+>I’m too hot (hot damn)
+
+>And my repo ain't 'bout that money
+
+>Break it down
+
+>[Chorus]
+
+>[Verse 3]
+
+>Before we leave
+
+>Lemme tell y’all a lil’ something
+
+>OpenMRS, OpenMRS
+
+>OpenMRS, OpenMRS
+
+>I said OpenMRS, OpenMRS
+
+>OpenMRS, OpenMRS
+
+>Come on, code
+
+>branch on it
+
+>If you implement then flaunt it
+
+>If you commit it then own it
+
+>Don’t brag about it, upload it
+
+>Come on, code
+
+>Branch on it
+
+>If you implement then flaunt it
+
+>Well it’s Saturday night and we in the ward
+
+>[Part-Chorus]
+
+>Don’t believe me, just watch (come on)
+
+>Don’t believe me, just watch
+
+>Don’t believe me, just watch
+
+>Don’t believe me, just watch
+
+>Don’t believe me, just watch
+
+>Don’t believe me, just watch
+
+>Hey, hey, hey, oh!
+
+>[Outro]
+
+>OpenMRS, OpenMRS (say whaa?!)
+
+>OpenMRS, OpenMRS
+
+>OpenMRS, OpenMRS (say whaa?!)
+
+>OpenMRS, OpenMRS
+
+>OpenMRS, OpenMRS (say whaa?!)
+
+>OpenMRS, OpenMRS
+
+>OpenMRS, OpenMRS (say whaa?!)
+
+>OpenMRS
+
+
 ### #2: MOD-87 - Fix Scrolling Bug:
 While I was working on MOD-54 I completed this task to a working degree but since it wasn't claimed by me on Melange, Parker completed it properly.
 
