@@ -5,9 +5,13 @@ date:   2015-01-17 16:00
 categories: gci
 ---
 
-As Google Code-In comes to an end, it's a good time to reflect on my experience participating for the first time in the competition and also what I've learnt over the past 7 weeks.
+As Google Code-In (GCI) comes to an end, it's a good time to reflect on my experience participating for the first time in the competition and also to see what I've learnt over the past 7 weeks.
 
-As of writing I've completed 6 tasks. This may not sound like a lot but everywhere you go you'll hear "Quality over Quantity." Let's look at those tasks:
+Before the competition, when I was looking at the organisation with which I'll work on for the next 7 weeks, I didn't look at what language their code base was. Most used C++, Python, Java and other scripting languages that aren't my strong suit. OpenMRS drew me in because it was putting a huge emphasis on the community. They had a long description about the organisation, a Talk topic asking everybody to introduce themselves and a wiki entry to get us started. The choice was so obvious for me I even thought maybe I should change to somebody else since probably this will be the most popular one. I'm glad I didn't.
+
+Another thing that drew me to OpenMRS was we were both in the same boat. This was their first time participating in GCI and mine as well, so we'll learn together.
+
+As of writing I've completed 6 tasks. This may not sound like a lot but everywhere you go you'll hear "Quality over Quantity.":
 
 ###Task #1: Complete OpenMRS developer setup on Windows OS
 This was my first task. I started it the first day and it took me over 10 hours to complete it, which is quite a lot. Because a large amount of other students were starting with this task most errors were solved quickly. OpenMRS had a guide on how to install but only then did we discover that there were build errors when using Java 1.8 instead of 1.7 of .6. Next error, when tests would fail during a clean install, was fixed by [@wluyima][wluyima-github] within two days. During the install I was met with a lot of new technologies that I hadn't met with before, e.g. Tomcat, Apache Maven, Jetty, Eclipse IDE for Java EE Developers and MySQL. I had to install and set-up all of them which was time consuming. I tried different approaches to get it up and running. When Maven wasn't running properly from the IDE, I added it to my PATH and tried running it from the command line. Then, I watched most of the videos available to try and diagnose my problem until wluyima patched the error and it compiled correctly.
@@ -242,7 +246,10 @@ I wanted gain a better understanding of the Modulus webpage, so I turned to the 
 
 I gained a better understanding of Bootstrap's classes, Angular.js templating and DOM. It was accepted and merged into the main repository.
 
+###What comes next...
+Thanks to GCI, I had enough strength to tackle my great fears (backend) and learn a lot about production code. Most of my previous projects were my own, so diving in and getting to know an unfamiliar codebase was great! It also opened my eyes to the existence open-source companies (my previous knowledge was only of Linux).
 
+After such an intense 7 weeks, I'll take a step back and focus on my own projects, which were neglected. I'll return to OpenMRS in the near future, to continue helping out in a small but important way, just like I did before.
 
 [wluyima-github]: https://github.com/wluyima
 [Modulus Website]: https://modules.openmrs.org
