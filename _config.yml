@@ -7,13 +7,13 @@ permalink:        pretty
 
 # Setup
 title:            Richard Szczerba
-tagline:          'Some experiences written'
+tagline:          ''
 description:      ''
 url:              http://http://enymuss.github.io/
 
 author:
   name:           'Richard Szczerba'
-  url:            https://twitter.com/enymuss1
+  url:            ''
 
 paginate:         5
 
